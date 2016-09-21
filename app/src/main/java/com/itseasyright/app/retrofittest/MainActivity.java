@@ -157,12 +157,4 @@ public class MainActivity extends AppCompatActivity {
         app.bus.unregister(this);
         RxUtils.unsubscribeIfNotNull(_subscription2);
     }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        app.bus.unregister(this);
-        RxUtils.unsubscribeIfNotNull(_subscription2);
-
-    }
 }
