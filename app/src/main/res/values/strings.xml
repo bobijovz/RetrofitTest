@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RetrofitTest</string>
+
+    <string name="saved_token">SAVED_TOKEN</string>
+    <string name="saved_cookies">SAVED_COOKIES</string>
+    <string name="preference_file_key">com.itseasyright.app.retrofittest.PREFERENCE_FILE_KEY</string>
 </resources>
